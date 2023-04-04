@@ -1,0 +1,17 @@
+#include <msp430.h> 
+
+/*
+* Final project code for LIDAR Sensor device. This should take sensor measurements and
+* communicate with a computer over WiFi. These measurements will then be read into a Matlab
+* script that will create a 3D figure.
+*
+* Author: Craig Droke and James Galeno
+* Version: 1.0
+*/
+
+int main(void)
+{
+	WDTCTL = WDTPW | WDTHOLD;	// stop watchdog timer
+	
+	return 0;
+}
