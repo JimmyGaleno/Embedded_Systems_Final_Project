@@ -5,6 +5,8 @@
 * communicate with a computer over WiFi. These measurements will then be read into a Matlab
 * script that will create a 3D figure.
 *
+* We are using the LIDAR Sensor (I2C), Accelorometer (I2C) to measure movement, and and LED and button for measurement.
+*
 * Author: Craig Droke and James Galeno
 * Version: 1.0
 */
